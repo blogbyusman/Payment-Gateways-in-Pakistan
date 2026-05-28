@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Best international payment gateway in Pakistan. A complete guide to international payment methods, how to get international payments in Pakistan, and a full list of payment gateways." />
+  <meta name="keywords" content="international payment methods in Pakistan, which payment gateway works in Pakistan, international online payment methods in Pakistan, how to get international payments in Pakistan, list of payments gateways in Pakistan, international payment gateway list" />
+  <title>Best International Payment Gateway in Pakistan (2026 Guide)</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ===========================
+       CSS VARIABLES & RESET
+    =========================== */
+    :root {
+      --green-50:  #E1F5EE;
+      --green-100: #9FE1CB;
+      --green-600: #0F6E56;
+      --green-700: #1D9E75;
+      --green-900: #04342C;
+
+      --blue-50:  #E6F1FB;
+      --blue-600: #185FA5;
+      --blue-800: #0C447C;
+
+      --amber-50:  #FAEEDA;
+      --amber-700: #854F0B;
+      --amber-900: #412402;
+      --amber-mid: #BA7517;
+
+      --coral-50:  #FAECE7;
+      --coral-600: #993C1D;
+
+      --purple-50:  #EEEDFE;
+      --purple-600: #534AB7;
+
+      --gray-100: #F5F4F0;
+      --gray-200: #E8E6DF;
+      --gray-400: #B4B2A9;
+      --gray-700: #5F5E5A;
+      --gray-900: #1A1A18;
+
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body:    'Source Serif 4', Georgia, serif;
+      --font-ui:      'DM Sans', system-ui, sans-serif;
+
+      --radius-sm:  6px;
+      --radius-md:  10px;
+      --radius-lg:  14px;
+      --radius-xl:  20px;
+
+      --max-width: 760px;
+      --shadow-card: 0 1px 4px rgba(0,0,0,0.06), 0 0 0 0.5px rgba(0,0,0,0.08);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-ui);
+      background: #FAFAF8;
+      color: var(--gray-900);
+      line-height: 1.7;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: var(--blue-600); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { color: var(--blue-800); }
+
+    /* ===========================
+       HEADER / NAV
+    =========================== */
+    .site-header {
+      background: #fff;
+      border-bottom: 1px solid var(--gray-200);
+      padding: 0 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .site-header-inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+    .site-logo {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gray-900);
+      text-decoration: none;
+    }
+    .site-logo span { color: var(--green-700); }
+    .nav-links { display: flex; gap: 24px; list-style: none; }
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--gray-700);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gray-900); }
+
+    /* ===========================
+       HERO / ARTICLE HEADER
+    =========================== */
+    .article-hero {
+      background: linear-gradient(160deg, #F0FAF6 0%, #EBF4FD 100%);
+      border-bottom: 1px solid var(--gray-200);
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+      animation: fadeUp 0.6s ease both;
+    }
+    .hero-tag {
+      display: inline-block;
+      font-family: var(--font-ui);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: var(--green-50);
+      color: var(--green-600);
+      padding: 4px 14px;
+      border-radius: 999px;
+      margin-bottom: 1.25rem;
+      border: 1px solid var(--green-100);
+    }
+    .article-title {
+      font-family: var(--font-display);
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 800;
+      line-height: 1.2;
+      color: var(--gray-900);
+      max-width: 640px;
+      margin: 0 auto 1.25rem;
+    }
+    .article-subtitle {
+      font-family: var(--font-body);
+      font-size: 18px;
+      color: var(--gray-700);
+      max-width: 560px;
+      margin: 0 auto 1.75rem;
+      line-height: 1.65;
+    }
+    .article-meta {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: var(--gray-700);
+    }
+    .article-meta span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .meta-dot {
+      width: 4px; height: 4px;
+      border-radius: 50%;
+      background: var(--gray-400);
+      display: inline-block;
+    }
+
+    /* ===========================
+       LAYOUT
+    =========================== */
+    .article-layout {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    /* ===========================
+       INTRO PULL QUOTE
+    =========================== */
+    .intro-pullquote {
+      font-family: var(--font-body);
+      font-style: italic;
+      font-size: 19px;
+      line-height: 1.7;
+      color: var(--gray-700);
+      border-left: 4px solid var(--green-700);
+      padding: 1rem 1.5rem;
+      margin: 0 0 2.25rem;
+      background: var(--green-50);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      animation: fadeUp 0.7s 0.1s ease both;
+    }
+
+    /* ===========================
+       SECTION HEADINGS
+    =========================== */
+    .section-heading {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin: 3rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--green-50);
+    }
+
+    /* ===========================
+       BODY TEXT
+    =========================== */
+    .body-text {
+      font-family: var(--font-body);
+      font-size: 17px;
+      line-height: 1.8;
+      color: var(--gray-900);
+      margin-bottom: 1.25rem;
+    }
+
+    /* ===========================
+       GATEWAY CARDS
+    =========================== */
+    .gateway-list { display: flex; flex-direction: column; gap: 1rem; margin: 1.5rem 0; }
+
+    .gw-card {
+      background: #fff;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      padding: 1.25rem 1.5rem;
+      box-shadow: var(--shadow-card);
+      transition: transform 0.2s, box-shadow 0.2s;
+      animation: fadeUp 0.5s ease both;
+    }
+    .gw-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08), 0 0 0 0.5px rgba(0,0,0,0.08);
+    }
+    .gw-card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .gw-icon {
+      width: 40px; height: 40px;
+      border-radius: var(--radius-md);
+      background: var(--green-50);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+      border: 1px solid var(--green-100);
+    }
+    .gw-title-block h3 {
+      font-family: var(--font-ui);
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--gray-900);
+      margin-bottom: 2px;
+    }
+    .badge-row { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+    .badge {
+      font-family: var(--font-ui);
+      font-size: 11px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 999px;
+    }
+    .badge-green  { background: var(--green-50);  color: var(--green-600);  border: 1px solid var(--green-100); }
+    .badge-blue   { background: var(--blue-50);   color: var(--blue-600);   border: 1px solid #B5D4F4; }
+    .badge-amber  { background: var(--amber-50);  color: var(--amber-700);  border: 1px solid #FAC775; }
+    .badge-coral  { background: var(--coral-50);  color: var(--coral-600);  border: 1px solid #F5C4B3; }
+    .badge-purple { background: var(--purple-50); color: var(--purple-600); border: 1px solid #CECBF6; }
+
+    .gw-desc {
+      font-family: var(--font-body);
+      font-size: 15px;
+      color: var(--gray-700);
+      line-height: 1.65;
+    }
+
+    /* Card accent variants */
+    .gw-card.featured { border-left: 4px solid var(--green-700); }
+
+    /* ===========================
+       COMPARISON TABLE
+    =========================== */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 1.5rem 0 2rem;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--gray-200);
+      box-shadow: var(--shadow-card);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-ui);
+      font-size: 14px;
+      background: #fff;
+    }
+    thead th {
+      background: var(--gray-100);
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--gray-700);
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--gray-200);
+    }
+    tbody td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--gray-200);
+      color: var(--gray-900);
+      vertical-align: middle;
+    }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background: #FAFAF8; }
+    .yes { color: var(--green-700); font-weight: 600; }
+    .indirect { color: var(--amber-mid); font-weight: 500; }
+    .no  { color: #D85A30; }
+
+    /* ===========================
+       QUICK PICK CARDS
+    =========================== */
+    .quick-pick-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 12px;
+      margin: 1.5rem 0;
+    }
+    .qp-card {
+      background: #fff;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.25rem;
+      box-shadow: var(--shadow-card);
+    }
+    .qp-card .situation {
+      font-family: var(--font-ui);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gray-700);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 6px;
+    }
+    .qp-card .recommendation {
+      font-family: var(--font-ui);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--green-600);
+    }
+    .qp-card.accent-blue  { border-top: 3px solid var(--blue-600); }
+    .qp-card.accent-green { border-top: 3px solid var(--green-700); }
+    .qp-card.accent-amber { border-top: 3px solid var(--amber-mid); }
+    .qp-card.accent-purple{ border-top: 3px solid var(--purple-600); }
+
+    /* ===========================
+       NUMBERED STEPS
+    =========================== */
+    .steps-list {
+      counter-reset: steps;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin: 1.5rem 0;
+    }
+    .steps-list li {
+      counter-increment: steps;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      background: #fff;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.25rem;
+      box-shadow: var(--shadow-card);
+    }
+    .steps-list li::before {
+      content: counter(steps);
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--green-700);
+      background: var(--green-50);
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      border: 1px solid var(--green-100);
+    }
+    .steps-list li .step-text {
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--gray-900);
+    }
+
+    /* ===========================
+       TIP / CALLOUT BOX
+    =========================== */
+    .tip-box {
+      background: var(--amber-50);
+      border: 1px solid #FAC775;
+      border-radius: var(--radius-md);
+      padding: 1.1rem 1.4rem;
+      margin: 2rem 0;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .tip-icon {
+      font-size: 22px;
+      flex-shrink: 0;
+      line-height: 1;
+      margin-top: 2px;
+    }
+    .tip-box p {
+      font-family: var(--font-body);
+      font-size: 15.5px;
+      color: var(--amber-900);
+      line-height: 1.65;
+    }
+    .tip-box strong { color: #412402; }
+
+    /* ===========================
+       FAQ
+    =========================== */
+    .faq-list { margin: 1.5rem 0; }
+    .faq-item {
+      border-top: 1px solid var(--gray-200);
+      padding: 1.25rem 0;
+    }
+    .faq-item:last-child { border-bottom: 1px solid var(--gray-200); }
+    .faq-q {
+      font-family: var(--font-ui);
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--gray-900);
+      margin-bottom: 8px;
+      cursor: pointer;
+    }
+    .faq-a {
+      font-family: var(--font-body);
+      font-size: 15.5px;
+      color: var(--gray-700);
+      line-height: 1.7;
+    }
+
+    /* ===========================
+       DIVIDER
+    =========================== */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--gray-200);
+      margin: 2.5rem 0;
+    }
+
+    /* ===========================
+       CTA SECTION
+    =========================== */
+    .cta-section {
+      background: linear-gradient(135deg, var(--green-50) 0%, var(--blue-50) 100%);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-xl);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .cta-section h2 {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin-bottom: 0.75rem;
+    }
+    .cta-section p {
+      font-family: var(--font-body);
+      font-size: 16px;
+      color: var(--gray-700);
+      max-width: 440px;
+      margin: 0 auto 1.5rem;
+      line-height: 1.65;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--green-700);
+      color: #fff;
+      font-family: var(--font-ui);
+      font-size: 15px;
+      font-weight: 600;
+      padding: 12px 28px;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-primary:hover {
+      background: var(--green-600);
+      transform: translateY(-1px);
+      color: #fff;
+    }
+    .btn-secondary {
+      display: inline-block;
+      background: transparent;
+      color: var(--gray-700);
+      font-family: var(--font-ui);
+      font-size: 15px;
+      font-weight: 500;
+      padding: 12px 24px;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      border: 1px solid var(--gray-200);
+      margin-left: 10px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .btn-secondary:hover {
+      background: #fff;
+      border-color: var(--gray-400);
+      color: var(--gray-900);
+    }
+
+    /* ===========================
+       FOOTER
+    =========================== */
+    .site-footer {
+      background: var(--gray-900);
+      color: #a8a6a0;
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-family: var(--font-ui);
+      font-size: 13px;
+    }
+    .site-footer a { color: var(--green-100); }
+
+    /* ===========================
+       ANIMATION
+    =========================== */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .gw-card:nth-child(1) { animation-delay: 0.05s; }
+    .gw-card:nth-child(2) { animation-delay: 0.10s; }
+    .gw-card:nth-child(3) { animation-delay: 0.15s; }
+    .gw-card:nth-child(4) { animation-delay: 0.20s; }
+    .gw-card:nth-child(5) { animation-delay: 0.25s; }
+    .gw-card:nth-child(6) { animation-delay: 0.30s; }
+    .gw-card:nth-child(7) { animation-delay: 0.35s; }
+
+    /* ===========================
+       RESPONSIVE
+    =========================== */
+    @media (max-width: 600px) {
+      .article-hero { padding: 2.5rem 1.25rem 2rem; }
+      .article-layout { padding: 2rem 1.25rem 4rem; }
+      .nav-links { display: none; }
+      .gw-card { padding: 1rem 1.1rem; }
+      .btn-secondary { margin-left: 0; margin-top: 10px; display: block; }
+      .cta-section { padding: 2rem 1.25rem; }
+      .quick-pick-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="site-logo" href="#">Pay<span>PK</span></a>
+      <nav aria-label="Site navigation">
+        <ul class="nav-links">
+          <li><a href="#gateways">Gateways</a></li>
+          <li><a href="#comparison">Compare</a></li>
+          <li><a href="#howto">How To</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="article-hero">
+    <span class="hero-tag">Fintech &middot; Pakistan</span>
+    <h1 class="article-title">Best International Payment Gateway in Pakistan (2026 Guide)</h1>
+    <p class="article-subtitle">A complete guide to receiving money from abroad — whether you are a freelancer, startup, or online business in Pakistan.</p>
+    <div class="article-meta">
+      <span>&#128197; May 2026</span>
+      <span class="meta-dot"></span>
+      <span>&#9201; 8 min read</span>
+      <span class="meta-dot"></span>
+      <span>&#128205; Pakistan</span>
+    </div>
+  </section>
+
+  <!-- ARTICLE BODY -->
+  <main class="article-layout">
+
+    <blockquote class="intro-pullquote">
+      If you are a freelancer, business owner, or developer in Pakistan trying to receive money from international clients — you already know the struggle. Getting paid from abroad is not as simple as it sounds. But in 2026, the options are better than ever.
+    </blockquote>
+
+    <p class="body-text">In this guide, we cover the best <strong>international payment gateways in Pakistan</strong>, how they work, and which one is right for you. Whether you want to accept credit cards, PayPal transfers, or bank wires — there is a solution here for you.</p>
+
+    <hr class="divider" />
+
+    <!-- WHY PAKISTAN -->
+    <h2 class="section-heading">Why Pakistan Faces Payment Challenges</h2>
+    <p class="body-text">Pakistan's financial system has historically been cut off from many global payment platforms. PayPal, for example, does not allow Pakistani users to receive payments. This forced millions of freelancers and small businesses to look for alternatives.</p>
+    <p class="body-text">The good news? In recent years, Pakistan's fintech ecosystem has grown rapidly. The State Bank of Pakistan (SBP) has opened new doors, and several local and international payment gateways now work in Pakistan.</p>
+
+    <hr class="divider" />
+
+    <!-- GATEWAY LIST -->
+    <h2 class="section-heading" id="gateways">List of Payment Gateways in Pakistan</h2>
+    <p class="body-text">Here is a curated <strong>international payment gateway list</strong> that actually works for Pakistani businesses and freelancers:</p>
+
+    <div class="gateway-list">
+
+      <article class="gw-card featured">
+        <div class="gw-card-header">
+          <div class="gw-icon">&#128176;</div>
+          <div class="gw-title-block">
+            <h3>1. Payoneer</h3>
+            <div class="badge-row">
+              <span class="badge badge-green">Best for Freelancers</span>
+              <span class="badge badge-blue">Global Transfers</span>
+              <span class="badge badge-amber">Low Fees</span>
+            </div>
+          </div>
+        </div>
+        <p class="gw-desc">Payoneer is the most popular <strong>international payment method in Pakistan</strong>. It lets you receive payments from clients, marketplaces like Upwork and Fiverr, and businesses worldwide. You can withdraw directly to your Pakistani bank account. Setup is free and approval is quick.</p>
+      </article>
+
+      <article class="gw-card">
+        <div class="gw-card-header">
+          <div class="gw-icon" style="background: var(--blue-50); border-color: #B5D4F4;">&#128196;</div>
+          <div class="gw-title-block">
+            <h3>2. Stripe (via Third-Party)</h3>
+            <div class="badge-row">
+              <span class="badge badge-blue">For Developers</span>
+              <span class="badge badge-purple">E-commerce</span>
+            </div>
+          </div>
+        </div>
+        <p class="gw-desc">Stripe is not directly available in Pakistan, but many Pakistani businesses use it through a US LLC or via partners. It supports credit/debit cards, Apple Pay, and Google Pay. Best for SaaS products and online stores targeting international customers.</p>
+      </article>
+
+      <article class="gw-card">
+        <div class="gw-card-header">
+          <div class="gw-icon" style="background: var(--amber-50); border-color: #FAC775;">&#127760;</div>
+          <div class="gw-title-block">
+            <h3>3. 2Checkout (now Verifone)</h3>
+            <div class="badge-row">
+              <span class="badge badge-amber">Accepts Pakistan</span>
+              <span class="badge badge-green">Cards &amp; PayPal</span>
+            </div>
+          </div>
+        </div>
+        <p class="gw-desc">2Checkout officially supports Pakistan. You can accept credit cards, PayPal, and local bank transfers through this platform. It is a strong choice for software companies and digital product sellers looking for <strong>international online payment methods in Pakistan</strong>.</p>
+      </article>
+
+      <article class="gw-card">
+        <div class="gw-card-header">
+          <div class="gw-icon" style="background: var(--purple-50); border-color: #CECBF6;">&#128257;</div>
+          <div class="gw-title-block">
+            <h3>4. Wise (formerly TransferWise)</h3>
+            <div class="badge-row">
+              <span class="badge badge-purple">International Transfers</span>
+              <span class="badge badge-blue">Best Exchange Rate</span>
+            </div>
+          </div>
+        </div>
+        <p class="gw-desc">Wise is excellent for receiving international bank transfers at real exchange rates. Pakistani users can use Wise to receive money from abroad and convert to PKR with minimal fees. Sending and receiving in multiple currencies is supported.</p>
+      </article>
+
+      <article class="gw-card">
+        <div class="gw-card-header">
+          <div class="gw-icon" style="background: var(--coral-50); border-color: #F5C4B3;">&#128247;</div>
+          <div class="gw-title-block">
+            <h3>5. JazzCash &amp; EasyPaisa</h3>
+            <div class="badge-row">
+              <span class="badge badge-coral">Local Gateway</span>
+              <span class="badge badge-green">Mobile Wallet</span>
+            </div>
+          </div>
+        </div>
+        <p class="gw-desc">JazzCash and EasyPaisa are Pakistan's most popular mobile wallets. While primarily used for local transactions, they now support international remittances. Businesses can integrate these as checkout options for Pakistani customers.</p>
+      </article>
+
+      <article class="gw-card">
+        <div class="gw-card-header">
+          <div class="gw-icon" style="background: var(--green-50); border-color: var(--green-100);">&#128241;</div>
+          <div class="gw-title-block">
+            <h3>6. NayaPay &amp; SadaPay</h3>
+            <div class="badge-row">
+              <span class="badge badge-green">New Fintechs</span>
+              <span class="badge badge-blue">Freelancer-Friendly</span>
+            </div>
+          </div>
+        </div>
+        <p class="gw-desc">These newer Pakistani fintech apps now offer freelancer accounts that can receive international payments, especially from platforms like Upwork. They come with Mastercard-linked accounts, making international payments in Pakistan more accessible than ever.</p>
+      </article>
+
+      <article class="gw-card">
+        <div class="gw-card-header">
+          <div class="gw-icon" style="background: var(--blue-50); border-color: #B5D4F4;">&#128179;</div>
+          <div class="gw-title-block">
+            <h3>7. Skrill</h3>
+            <div class="badge-row">
+              <span class="badge badge-blue">Available in Pakistan</span>
+              <span class="badge badge-amber">Freelancers &amp; Traders</span>
+            </div>
+          </div>
+        </div>
+        <p class="gw-desc">Skrill is a global digital wallet that works in Pakistan. Unlike PayPal, Skrill allows Pakistani users to receive and send money. It is commonly used by freelancers, affiliate marketers, and online traders.</p>
+      </article>
+
+    </div><!-- end gateway-list -->
+
+    <hr class="divider" />
+
+    <!-- COMPARISON TABLE -->
+    <h2 class="section-heading" id="comparison">Comparison at a Glance</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Gateway</th>
+            <th>Works in PK?</th>
+            <th>Bank Withdrawal?</th>
+            <th>Fees</th>
+            <th>Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Payoneer</strong></td><td class="yes">&#10003; Yes</td><td class="yes">&#10003; Yes</td><td>~2%</td><td>Freelancers, Agencies</td></tr>
+          <tr><td><strong>2Checkout</strong></td><td class="yes">&#10003; Yes</td><td class="yes">&#10003; Yes</td><td>3.5%+</td><td>Digital Products</td></tr>
+          <tr><td><strong>Wise</strong></td><td class="yes">&#10003; Yes</td><td class="yes">&#10003; Yes</td><td>~0.5%</td><td>Bank Transfers</td></tr>
+          <tr><td><strong>Skrill</strong></td><td class="yes">&#10003; Yes</td><td class="yes">&#10003; Yes</td><td>~1.9%</td><td>Freelancers</td></tr>
+          <tr><td><strong>Stripe</strong></td><td class="indirect">Indirect</td><td class="yes">&#10003; Via LLC</td><td>2.9%+</td><td>SaaS, E-commerce</td></tr>
+          <tr><td><strong>JazzCash</strong></td><td class="yes">&#10003; Yes</td><td class="yes">&#10003; Yes</td><td>Varies</td><td>Local Business</td></tr>
+          <tr><td><strong>NayaPay</strong></td><td class="yes">&#10003; Yes</td><td class="yes">&#10003; Yes</td><td>Low</td><td>Freelancers</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- HOW TO -->
+    <h2 class="section-heading" id="howto">How to Get International Payments in Pakistan</h2>
+    <p class="body-text">Here is a simple step-by-step path to start receiving money from abroad:</p>
+
+    <ol class="steps-list">
+      <li><span class="step-text">Pick a payment gateway from the list above. <strong>Payoneer</strong> is the easiest to start with.</span></li>
+      <li><span class="step-text">Create an account and verify your identity with your <strong>CNIC and bank details</strong>.</span></li>
+      <li><span class="step-text">Share your payment link or virtual bank account details with your international client.</span></li>
+      <li><span class="step-text">Once the payment arrives, <strong>withdraw it to your local bank</strong> in PKR.</span></li>
+      <li><span class="step-text">Keep records for <strong>FBR tax purposes</strong> — international income is taxable in Pakistan.</span></li>
+    </ol>
+
+    <div class="tip-box">
+      <span class="tip-icon">&#128161;</span>
+      <p><strong>Pro Tip:</strong> If you are a freelancer registered on Upwork, Fiverr, or Toptal — Payoneer connects directly to these platforms. You do not even need a client to send a manual payment link. The platform handles it automatically.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- QUICK PICK -->
+    <h2 class="section-heading">Which Payment Gateway is Right for You?</h2>
+    <p class="body-text">Still confused? Here is a quick match based on your situation:</p>
+
+    <div class="quick-pick-grid">
+      <div class="qp-card accent-green">
+        <p class="situation">Freelancer on Upwork / Fiverr</p>
+        <p class="recommendation">&#8594; Payoneer or NayaPay</p>
+      </div>
+      <div class="qp-card accent-blue">
+        <p class="situation">Running a SaaS or digital store</p>
+        <p class="recommendation">&#8594; 2Checkout or Stripe (via LLC)</p>
+      </div>
+      <div class="qp-card accent-amber">
+        <p class="situation">Receiving bank transfers from abroad</p>
+        <p class="recommendation">&#8594; Wise or Payoneer</p>
+      </div>
+      <div class="qp-card accent-purple">
+        <p class="situation">Selling to local Pakistani customers</p>
+        <p class="recommendation">&#8594; JazzCash or EasyPaisa</p>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- FAQ -->
+    <h2 class="section-heading" id="faq">Frequently Asked Questions</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <p class="faq-q">Does PayPal work in Pakistan?</p>
+        <p class="faq-a">No. As of 2026, PayPal does not officially support receiving payments in Pakistan. You can use Payoneer, Skrill, or Wise as strong alternatives.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">What is the best international payment gateway for freelancers in Pakistan?</p>
+        <p class="faq-a">Payoneer is the most widely used and trusted option. It connects with almost every major freelance marketplace and allows direct bank withdrawals in Pakistan.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Is it legal to receive international payments in Pakistan?</p>
+        <p class="faq-a">Yes, it is 100% legal. You simply need to declare your income and follow State Bank of Pakistan regulations for foreign remittances. Many freelancers and agencies do this every day.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Can I use Stripe in Pakistan?</p>
+        <p class="faq-a">Not directly. But you can use Stripe if you register a business entity abroad (such as a US LLC) and link it to a US bank account. Many Pakistani tech entrepreneurs do this successfully.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Which payment gateway has the lowest fees in Pakistan?</p>
+        <p class="faq-a">Wise has some of the lowest fees for bank-to-bank international transfers. For freelance platforms, Payoneer typically charges around 2%, which is competitive for the region.</p>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- CONCLUSION -->
+    <h2 class="section-heading">Final Thoughts</h2>
+    <p class="body-text">The international payments landscape in Pakistan has improved a lot. Freelancers, startups, and online businesses now have multiple solid options to receive money from clients anywhere in the world.</p>
+    <p class="body-text">Start with <strong>Payoneer</strong> if you are new — it is the safest and simplest choice. As your business grows, you can explore <strong>2Checkout</strong> for accepting cards on your website, or <strong>Wise</strong> for cheap international bank transfers.</p>
+    <p class="body-text">The key is to not wait. Set up your account today and start receiving what you have earned.</p>
+
+    <!-- CTA -->
+    <div class="cta-section">
+      <h2>Ready to Start Receiving International Payments?</h2>
+      <p>Pick the right gateway for your needs, set up your account, and start getting paid — from anywhere in the world.</p>
+      <a href="#gateways" class="btn-primary">View All Gateways</a>
+      <a href="#comparison" class="btn-secondary">Compare Side by Side</a>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>&copy; 2026 PayPK Blog &mdash; A guide to international payment methods in Pakistan. For informational purposes only.</p>
+  </footer>
+
+</body>
+</html>
